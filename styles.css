@@ -1,0 +1,102 @@
+body {
+background-color: #fafafa;
+margin: 0 0 55px 0;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #54A9A7;
+    padding: 20px 10px;
+    width: 100%;
+    position: fixed;
+  }
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 7%;
+}
+
+.widget{
+    display: inline-block;
+    width: 15%;
+    padding-top: 10%;
+    padding-left: 1%;
+    margin-top: 10%;
+    border-radius: 7%;
+}
+
+#widget1{
+    background-color: #a8d6d0;
+    margin-left: 15%;    
+}
+
+#widget2{
+    background-color: #75b6ad;
+    margin-left: 3%;
+}
+
+#widget3{
+    background-color: #4b8880;
+    margin-left: 3%;
+}
+
+
+.nav {
+    position: fixed;
+    left: 0;
+    width: 12%;
+    height: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: block;
+    overflow-y: auto;
+}
+
+.nav__link {
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #004244;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.nav__text{
+padding-left: 5%;
+padding-top: 2%;
+}
+
+
+.nav__link:hover {
+    background-color: #eeeeee;
+}
+
+.nav__link--active {
+    color: #54A9A7;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+
+
+#calendar{
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 5%;
+    position: absolute;
+    border-radius: 7px;
+    width: 15%;
+}
