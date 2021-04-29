@@ -23,13 +23,13 @@ margin: 0 0 55px 0;
     width: 15%;
     padding-top: 10%;
     padding-left: 1%;
-    margin-top: 10%;
+    margin-top: 12%;
     border-radius: 7%;
 }
 
 #widget1{
     background-color: #a8d6d0;
-    margin-left: 15%;    
+    margin-left: 5%;    
 }
 
 #widget2{
@@ -46,7 +46,7 @@ margin: 0 0 55px 0;
 .nav {
     position: fixed;
     left: 0;
-    width: 12%;
+    width: 160px;
     height: 100%;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
@@ -74,13 +74,13 @@ margin: 0 0 55px 0;
 }
 
 .nav__text{
-padding-left: 5%;
-padding-top: 2%;
+    margin-top: 2%;
+    padding-left: 5%;
 }
 
 
 .nav__link:hover {
-    background-color: #eeeeee;
+    background-color: #c4f0ef81;
 }
 
 .nav__link--active {
@@ -91,12 +91,43 @@ padding-top: 2%;
     font-size: 18px;
 }
 
+.hamburger label.helper input {
+    position: fixed; top: 0; left: -100px;
+  }
+  
+  .hamburger label.helper .navbar-wrapper .icon {
+    background-color: transparent;
+    cursor: pointer;
+    display: block; width: 56px; height: 56px;
+    position: absolute; top: 20px; left: 0;
+    padding: 12px;
+    color: #eeeeee;
+  }
+  
+  .hamburger label.helper .navbar-wrapper .cover {
+    background: rgba(0, 0, 0, 0);
+    display: none;
+    transition: 0.5s ease-out;
+  }
+  
+  .hamburger label.helper .navbar-wrapper .sidebar {
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+    display: block; width: 200px;
+    position: fixed; top: 0; left: -320px; bottom: 0;
+    transition: 0.5s ease-out;
+  }
+  
+  .hamburger label.helper input:checked + .navbar-wrapper .cover {
+    display: block;
+    background: rgba(0, 0, 0, 0.25);
+    position: fixed; top: 0; left: 0; bottom: 0; right: 0;
+    transition: 0.5s ease-out;
+  }
+  
+  .hamburger label.helper input:checked + .navbar-wrapper .sidebar {
+    left: 0; transition: 0.5s ease-out;
+  }
 
-#calendar{
-    display: inline-block;
-    margin-top: 8%;
-    margin-left: 5%;
-    position: absolute;
-    border-radius: 7px;
-    width: 15%;
-}
+
+  
