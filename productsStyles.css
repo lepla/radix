@@ -33,31 +33,65 @@
         height: 44px;
   }
 
-  .widget{
-    display:inline-table;
+  .widget-fr{
+    display:inline-block;
     width: 20%;
     height: 100px;
     padding-left: 1%;
-    margin-top: 6%;
+    margin-top: 4%;
     border-radius: 8%;
-    margin-left: 3%; 
+    margin-left: 3%;
+    align-content: center;
+  }
+
+  .widget-br{
+    display:inline-block;
+    width: 20%;
+    height: 100px;
+    padding-left: 1%;
+    margin-top: 4%;
+    border-radius: 8%;
+    margin-left: 3%;
+    align-content: center;
   }
   
   #widget1{
     background-color: #a8d6d0;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height:auto;
   }
   
   #widget2{
     background-color: #75b6ad;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height:auto
   }
   
   #widget3{
     background-color: #4b8880;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height:auto;
   }
   
+  #widget4{
+    background-color: #a8d6d0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height:auto;
+  }
+  
+  #widget5{
+    background-color: #75b6ad;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height:auto
+  }
+  
+  #widget6{
+    background-color: #4b8880;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height:auto;
+  }
+
+
   #widget1:hover {
     background-color: #2ee5c6;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
@@ -83,6 +117,31 @@
     cursor: pointer;
   }
   
+  #widget4:hover {
+    background-color: #2ee5c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(7px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #widget5:hover {
+    background-color: #2ee5c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(7px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #widget6:hover {
+    background-color: #2ee5c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(7px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
   #text1{
     width: 90%;
     text-align:center; 
@@ -102,3 +161,23 @@
     padding-bottom: 15%;
   }
   
+  #text4{
+    width: 90%;
+    text-align:center; 
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+  #text5{
+    width: 90%;
+    text-align: center; 
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+  #text6{
+    width: 90%;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+  
+
