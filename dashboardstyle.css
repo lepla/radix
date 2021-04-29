@@ -1,0 +1,23 @@
+.widget{
+  display: inline-block;
+  width: 15%;
+  padding-top: 10%;
+  padding-left: 1%;
+  margin-top: 12%;
+  border-radius: 7%;
+}
+
+#widget1{
+  background-color: #a8d6d0;
+  margin-left: 5%;    
+}
+
+#widget2{
+  background-color: #75b6ad;
+  margin-left: 3%;
+}
+
+#widget3{
+  background-color: #4b8880;
+  margin-left: 3%;
+}
