@@ -1,6 +1,7 @@
 body {
 background-color: #fafafa;
 margin: 0 0 55px 0;
+font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -17,6 +18,47 @@ margin: 0 0 55px 0;
     margin-right: auto;
     max-width: 7%;
 }
+
+#profilepic{
+  display: block;
+  margin-left: 70%;
+  margin-top: -3%;
+  max-width: 50px;
+}
+
+#name{
+  display: block;
+  position: fixed;
+  margin-left: 74%;
+  margin-top: -1.5%;
+}
+
+@media screen and (max-width: 1227px) {
+  #name{
+    display: block;
+    position: fixed;
+    margin-left: 76%;
+    margin-top: -2.5%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #name{
+    display: block;
+    position: fixed;
+    margin-left: 77%;
+    margin-top: -3%;
+  }
+}
+@media screen and (max-width: 747px) {
+  #name{
+    display: block;
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -5%;
+  }
+}
+
+
 
 .nav {
     position: fixed;
