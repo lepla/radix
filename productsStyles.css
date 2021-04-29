@@ -33,8 +33,9 @@
         height: 44px;
   }
 
-  .widget-fr{
+  .widget{
     display:inline-block;
+    position:relative;
     width: 20%;
     height: 100px;
     padding-left: 1%;
@@ -44,18 +45,6 @@
     align-content: center;
   }
 
-  .widget-br{
-    clear:both;
-    display:inline-block;
-    width: 20%;
-    height: 100px;
-    padding-left: 1%;
-    margin-top: 4%;
-    border-radius: 8%;
-    margin-left: 3%;
-    align-content: center;
-  }
-  
   #widget1{
     background-color: #a8d6d0;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -65,7 +54,7 @@
   #widget2{
     background-color: #75b6ad;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    height:auto
+    height:auto;
   }
   
   #widget3{
@@ -83,7 +72,7 @@
   #widget5{
     background-color: #75b6ad;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    height:auto
+    height:auto;
   }
   
   #widget6{
