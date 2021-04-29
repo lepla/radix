@@ -1,7 +1,7 @@
  .main-body {
         position: relative;
         margin-left: 25%;
-        top: 180px;
+        top: 120px;
   }
     
   #form {
@@ -32,3 +32,73 @@
         width: 50px;
         height: 44px;
   }
+
+  .widget{
+    display:inline-table;
+    width: 20%;
+    height: 100px;
+    padding-left: 1%;
+    margin-top: 6%;
+    border-radius: 8%;
+    margin-left: 3%; 
+  }
+  
+  #widget1{
+    background-color: #a8d6d0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #widget2{
+    background-color: #75b6ad;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #widget3{
+    background-color: #4b8880;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #widget1:hover {
+    background-color: #2ee5c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(7px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #widget2:hover {
+    background-color: #2ee5c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(7px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #widget3:hover {
+    background-color: #2ee5c6;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(7px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #text1{
+    width: 90%;
+    text-align:center; 
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+  #text2{
+    width: 90%;
+    text-align: center; 
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+  #text3{
+    width: 90%;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+  
