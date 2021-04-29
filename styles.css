@@ -113,7 +113,7 @@ margin: 0 0 55px 0;
   .hamburger label.helper .navbar-wrapper .sidebar {
     background-color: #FFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
-    display: block; width: 200px;
+    display: block; width: 230px;
     position: fixed; top: 0; left: -320px; bottom: 0;
     transition: 0.5s ease-out;
   }
