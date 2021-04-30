@@ -2,7 +2,7 @@
  .main-body {
         position: relative;
         margin-left: 25%;
-        margin-top: -3.5%;
+        margin-top: 10%;
         align-content: center;
   }
 
@@ -232,4 +232,15 @@
     position: relative;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+  }
+
+  #search-button {
+    position: relative;
+    height: 25px;
+    margin-left: 0%;
+  }
+
+
+  #search-button:hover {
+    cursor: pointer;
   }
