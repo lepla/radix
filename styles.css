@@ -138,6 +138,7 @@ font-family: 'Roboto', sans-serif;
     transition: 0.5s ease-out;
     overflow-y: auto;
     margin-top: -10px;
+    z-index: 1;
   }
   
   .hamburger label.helper input:checked + .navbar-wrapper .cover {
