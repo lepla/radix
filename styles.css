@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    overflow: hidden;
+    overflow:auto;
     background-color: #54A9A7;
     padding: 20px 10px;
     width: 100%;
@@ -110,7 +110,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hamburger label.helper input {
-    position: fixed; top: 0; left: -100px;
+    position: abs; 
+    top: 0; 
+    left: -100px;
   }
   
   .hamburger label.helper .navbar-wrapper .icon {
