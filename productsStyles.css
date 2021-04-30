@@ -1,9 +1,11 @@
+
  .main-body {
         position: relative;
         margin-left: 25%;
         top: 120px;
+        align-content: center;
   }
-    
+
   #form {
         position: flex;
         left: 10%;
@@ -35,7 +37,6 @@
 
   .widget{
     display:inline-block;
-    position:relative;
     width: 20%;
     height: 100px;
     padding-left: 1%;
@@ -49,36 +50,42 @@
     background-color: #a8d6d0;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height:auto;
+    position:relative;
   }
   
   #widget2{
     background-color: #75b6ad;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height:auto;
+    position:relative;
   }
   
   #widget3{
     background-color: #4b8880;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height:auto;
+    position:relative;
   }
   
   #widget4{
     background-color: #a8d6d0;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height:auto;
+    position:relative;
   }
   
   #widget5{
     background-color: #75b6ad;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height:auto;
+    position:relative;
   }
   
   #widget6{
     background-color: #4b8880;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height:auto;
+    position:relative;
   }
 
 
