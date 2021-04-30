@@ -49,20 +49,27 @@
   cursor: pointer;
 }
 
+#atext{
+  text-decoration: none;
+}
+
 #text1{
   width: 90%;
   text-align: center; 
   padding-top: 50px;
+  color: black;  
 }
 #text2{
   width: 90%;
   text-align: center; 
   padding-top: 50px;
+  color: black;
 }
 #text3{
   width: 90%;
   text-align: center;
   padding-top: 50px; 
+  color: black;
 }
 
 #calendar{
