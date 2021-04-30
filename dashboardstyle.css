@@ -1,3 +1,4 @@
+
 .widget{
   display: inline-block;
   width: 200px;
@@ -62,4 +63,97 @@
   width: 90%;
   text-align: center;
   padding-top: 50px; 
+}
+
+#calendar{
+  margin-top: -10%;
+  margin-left: 47%;
+}
+
+#chat{
+  margin-top: -15%;
+  margin-left: 2.5%;
+}
+
+@media screen and (max-width: 3000px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: -15%;
+    max-width: 40%;
+  }
+  #calendar{
+    
+    margin-left: 40%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 2250px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: -15%;
+    max-width: 40%;
+  }
+  #calendar{
+    
+    margin-left: 45%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1772px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: -15%;
+    max-width: 40%;
+  }
+  #calendar{
+    
+    margin-left: 50%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1617px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: -15%;
+    max-width: 40%;
+  }
+  #calendar{
+    margin-left: 55%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1430px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: -15%;
+    max-width: 40%;
+  }
+  #calendar{
+    margin-left: 60%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1278px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: -15%;
+    max-width: 40%;
+  }
+  #calendar{
+    margin-left: 70%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1065px) {
+  #chat{
+    margin-left: 3%;
+    margin-top: 15%;
+    max-width: 40%;
+  }
+  #calendar{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 50%;
+  }
 }
