@@ -1,19 +1,33 @@
-body {
-    background: #eee
+.main-body{
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.ratings i {
-    font-size: 16px;
-    color: red
+
+
+#prod-title{
+  color: #96CEA7;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20%;
+  margin-top: -16%;
 }
 
-.strike-text {
-    color: red;
-    text-decoration: line-through
+#initial-price{
+  color: #24493D;
+  margin-left: 15%;
+}
+
+
+#features{
+  color:#96CEA7;
+  margin-left: 20%;
 }
 
 .product-image {
-    width: 20%
+    width: 200px;
+    height: 200px;
 }
 
 .dot {
@@ -22,14 +36,25 @@ body {
     margin-left: 6px;
     margin-right: 6px;
     margin-top: 3px;
-    background-color: blue;
+    background-color: #24493D;
     border-radius: 50%;
     display: inline-block
 }
 
-.spec-1 {
-    color: #938787;
-    font-size: 15px
+#description{
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 30%;
+  color: #24493D;
+}
+
+#details-button{
+  height:35px;
+  width: 100px;
+  background-color:#96CEA7;
+  border-radius: 1%;
+  border-style: dotted;
+  margin-left: 20%;
 }
 
 h5 {
