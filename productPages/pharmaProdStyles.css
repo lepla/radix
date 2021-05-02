@@ -1,10 +1,23 @@
 .main-body{
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+#back-button{
+  margin-bottom: 5%;
+  width:100px;
+  height: 30px;
+  background-color:#96CEA7;
+  border-radius: 1%;
+  border-style: dotted;
+  text-decoration: none;
+}
 
+#back-button-link{
+  text-decoration: none;
+  color:#24493D;
+}
 
 #prod-title{
   color: #96CEA7;

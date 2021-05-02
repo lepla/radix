@@ -156,7 +156,8 @@
 
   #text1{
     width: 90%;
-    text-align: center; 
+    text-align: center;
+    text-decoration: none;
     color:#fff;
     padding-top: 40px;
     padding-bottom: 15px;
