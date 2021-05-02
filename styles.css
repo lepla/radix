@@ -109,8 +109,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-.hamburger label.helper input {
-    position: abs; 
+.hamburger label.helper input { 
     top: 0; 
     left: -100px;
   }
@@ -119,7 +118,7 @@ font-family: 'Roboto', sans-serif;
     background-color: transparent;
     cursor: pointer;
     display: block; width: 56px; height: 56px;
-    position: absolute; top: 20px; left: 0;
+    position: fixed; top: 20px; left: 0;
     padding: 12px;
     color: #eeeeee;
   }
