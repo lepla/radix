@@ -1,0 +1,109 @@
+.form1{
+    margin-top: 15%;
+    margin-left: 45%;
+}
+
+.form2{
+    margin-top: -13%;
+    margin-left:70%;
+
+}
+.test{
+    margin-top: 5%;
+}
+
+h2{
+    margin-top: -13%;
+    margin-left: 70%;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h3{
+    margin-top: -3%;
+    margin-left: 45%;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+button{
+    margin-top: 2%;
+    margin-left: 39%;
+    border: none;
+    padding-top: 5px;
+    border-radius: 3px;
+    background-color: #54A9A7;
+    width: 100px;
+}
+#fname{
+    background-color: #d6f5f1ad;
+    border: none;
+    border-radius: 5px;
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 250px;
+}
+#lname{
+    background-color: #d6f5f1ad;
+    border: none;
+    border-radius: 5px;
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 250px;
+}
+#tel{
+    background-color: #d6f5f1ad;
+    border: none;
+    border-radius: 5px;
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 250px;
+}
+#email{
+    background-color: #d6f5f1ad;
+    border: none;
+    border-radius: 5px;
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 250px;
+}
+#date{
+    background-color: #d6f5f1ad;
+    border: none;
+    border-radius: 5px;
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 250px;
+}
+#time{
+    background-color: #d6f5f1ad;
+    border: none;
+    border-radius: 5px;
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 250px;
+}
+#header{
+    display: inline-block;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #b2d1d1;
+    margin-top: 13%;
+    margin-left: 55%;
+    padding: 20px;
+  }
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#search{
+    border-color:lightgrey;
+    padding-top: 10px;
+    width: 160px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
