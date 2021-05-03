@@ -49,9 +49,15 @@
   text-decoration: none;
 }
 #text1{
+<<<<<<< HEAD
   position: absolute;
   margin-left: 9px;
   color: black; 
+=======
+  color: black;  
+  position: fixed;
+  margin-left: 9px;
+>>>>>>> 21b19639759363dbace27ff27651eef1f0410d48
 }
 #text2{
   width: 90%;
@@ -78,7 +84,7 @@
   margin-right: auto;
 }
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: #54A9A7;
   color: #ffffff;
   text-align: left;
 }
@@ -95,9 +101,25 @@
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #0d4a3e;
 }
 .styled-table tbody tr.active-row {
   font-weight: bold;
-  color: #009879;
+  color: #145a4c;
+}
+
+@media screen and (max-width: 1920px) {
+  #text1{
+    color: black;  
+    position: fixed;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  #text1{
+    color: black;  
+    position: fixed;
+    margin-left: 9px;
+  }
 }
