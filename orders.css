@@ -27,7 +27,7 @@
   border-radius: 7%;
   text-align: center;
   margin:auto;
-  display: flex
+  display: flex;
 }
 
 #widget1{
@@ -78,7 +78,7 @@
   margin-right: auto;
 }
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: #54A9A7;
   color: #ffffff;
   text-align: left;
 }
@@ -95,9 +95,9 @@
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #155b4d;
 }
 .styled-table tbody tr.active-row {
   font-weight: bold;
-  color: #009879;
+  color: #297667;
 }
