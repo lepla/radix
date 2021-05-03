@@ -49,10 +49,9 @@
   text-decoration: none;
 }
 #text1{
-  width: 90%;
-  text-align: center; 
-  padding-left: 13px;
-  color: black;  
+  position: absolute;
+  margin-left: 9px;
+  color: black; 
 }
 #text2{
   width: 90%;
