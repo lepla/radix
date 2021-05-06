@@ -1,0 +1,76 @@
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 1%;
+    width: 350px;
+  }
+  h1{
+      margin-top: 12%;
+      margin-left: 3%;
+      font-size: 28px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      width:300px
+  }
+.dropdown{
+    display: inline-block;
+    position: relative;
+    margin-left: 33%;
+    margin-top: -5%;
+}
+.dropdown button{
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    background-color: #54A9A7;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 15px;
+    width:130px;
+}
+.dropdown:hover button{
+    background-color: #aacece;
+}
+.dropdown div{
+    background-color: #f1f1f1;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+    min-width:100%;
+    opacity: 0;
+    transition: .3s;
+    font-size: 15px;
+}
+.dropdown:hover div{
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown div a{
+    display:block;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.dropdown div a:hover{
+    background-color: #aacece;
+    color: black;
+    transition:.1s;
+}
+
+#calendar{
+    margin-top: 1%;
+    margin-left: 50%;
+    height: 350px;
+}
+#add{
+    background-color: #54A9A7;
+    font-size: 25px;
+    color: white;
+    padding-right: 40px;
+    margin-left: 95%;
+}
+.plus{
+    margin-top: -45%;
+}

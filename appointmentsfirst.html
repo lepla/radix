@@ -2,8 +2,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="appointments.css">
-    <title>RADIX-Orders</title><meta charset="UTF-8">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="appointmentsfirst.css">
+    <title>RADIX-Chat</title><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -11,6 +12,7 @@
 <body>
   <div class="header">
     <a href="dashboard.html"><img src="assets/radix.png" alt="RADIX Logo" id="logo"></a>
+    
     <img src="assets/profilepic.png" alt="profile picture" id="profilepic">
     <p id="name">Γιάννης Χ.</p>
 </div>
@@ -41,7 +43,7 @@
             <i class="material-icons nav__icon">assignment</i>
             <span class="nav__text">Παραγγελίες και Υπενθυμίσεις</span>
           </a>
-          <a href="chat.html" class="nav__link">
+          <a href="chat.html" class="nav__link nav__link--active">
             <i class="material-icons nav__icon">question_answer</i>
             <span class="nav__text">Επικοινωνία</span>
           </a>
@@ -53,7 +55,7 @@
             <i class="material-icons nav__icon">local_shipping</i>
             <span class="nav__text">Αποθέματα και Παραλαβές</span>
           </a>
-          <a href="appointments.html" class="nav__link nav__link--active">
+          <a href="appointments.html" class="nav__link">
             <i class="material-icons nav__icon">menu_book</i>
             <span class="nav__text">Ραντεβού Πελατών</span>
           </a>
@@ -61,34 +63,53 @@
       </div>
     </label>
   </div>
-  <div>
-    <form class="form1">
+  <h1>Τα ραντεβού μου</h1>
+  <div class="dropdown">
+        <button>Σήμερα</button>
+            <div>
+                <a href="#">Αυτή την εβδομάδα</a>
+                <a href="#">Προηγούμενη εβδομάδα</a>
+            </div>
+    </div>
+  <div class="container">
+    <ul>
+        <li> Χριστιάννα Σμυρλόγλου<br>
+            12:00-14:00 : Περιποίηση προσώπου 
+      </ul>  
 
-    <input type="text" id="fname" name="fname" placeholder="Όνομα"><br><br>
-    <input type="text" id="lname" name="lname" placeholder="Επώνυμο"><br><br>
-    <input type="text" id="tel" name="lname" placeholder="Τηλέφωνο"><br><br>
-    <input type="text" id="email" name="lname" placeholder="E-mail"><br>
-    </form>
-  </div>
-  <div>
-    <form class="form2">
-      <input type="text" id="date" name="date" placeholder="Ημερομηνία"><br><br>
-      <input type="text" id="time" name="time" placeholder="Ώρα"><br><br>
-      <button>Υποβολή</button>
-    </form>
-  </div>
-  <h2>Λεπτομέρειες ραντεβού:</h2>
-  <h3>Στοιχεία επικοινωνίας:</h3>
-  <h1 class="test">Ραντεβού πελατών</h1>
-  <p>Το RADIX Pharmacy προσφέρει τη δυνατότητα να κλείσετε</p>
-  <p>ηλεκτρονικά το ραντεβού εύκολα και γρήγορα</p>
+</div>
 
-  <div class="topnav">
-    <input type="text" id="search" placeholder="Αναζήτηση ραντεβού..">
-  </div>
-  <img id="image" src="assets/clock_icon.jpg" alt="Clock" width="145" height="140">
-  <img id="img" src="assets/diary_icon.jpg" alt="Diary" width="145" height="140">
-  <img id="check" src="assets/check_icon.jpg" alt="Check" width="145" height="140">
+<div class="container">
+    <ul>
+        <li> Δημήτρης Παπακυριακόπουλος<br>
+            16:00-17:00 : Χαλαρωτικό μασάζ 
+      </ul>  
+</div>
 
+<div class="container">
+     <ul>
+        <li> Λευτέρης Πλατής<br>
+            19:00-20:00 : Αθλητικό μασάζ 
+      </ul>  
+</div>
+
+<div class="container">
+    <ul>
+       <li> Aναστάσης Μπακαρός<br>
+           20:00-20:30 : Απλή περιποίηση
+     </ul>  
+</div>
+
+<div class="container">
+    <ul>
+       <li> Βασίλης Μπουμπής<br>
+           20:30-21:00 : Αθλητικό μασάζ 
+     </ul>  
+</div>
+<div class="plus">
+<a  id="add" href="appointments.html" target="_blank">+</a>
+
+</div>
+<img src="assets\calendar.jpg" alt="calendar" id="calendar">
 </body>
 </html>
