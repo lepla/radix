@@ -16,7 +16,17 @@
 #stixia{
  margin-top: 2%;
 }
-
+.test{
+  margin-top: 10%;
+}
+#image{
+  margin-left: 1%;
+  margin-right: -4%;
+}
+#img{
+  margin-top: 5%;
+  margin-left: 4%;
+}
 
 .widget{
   display: inline-block;
@@ -31,7 +41,7 @@
 }
 
 #widget1{
-  background-color: #a8d6d0;
+  background-color: #1e9a89;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   
 }
@@ -100,4 +110,67 @@
 .styled-table tbody tr.active-row {
   font-weight: bold;
   color: #297667;
+}
+
+.background{
+  display: inline-block;
+  width: 500px;
+  height: 250px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 7%;
+  text-align: center;
+  margin:auto;
+  background-color: #a8d6d0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -20%; 
+  margin-left: 30%; 
+  padding-bottom: 30px;
+}
+.background2{
+  display: inline-block;
+  width: 500px;
+  height: 250px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 7%;
+  text-align: center;
+  margin:auto;
+  background-color: #a8d6d0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -20%; 
+  margin-left: 30%; 
+  padding-bottom: 70px;
+}
+
+@media screen and (max-width: 1230px) {
+  .background2{
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 980px) {
+  #img{
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+  .background{
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+  .test{
+    margin-top: 18%;
+  }
+  .background2{
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .background{
+    margin-left: 0px;
+  }
+  .background2{
+    margin-left: 0px;
+  }
 }
