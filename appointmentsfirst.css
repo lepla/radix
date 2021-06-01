@@ -68,9 +68,53 @@
     background-color: #54A9A7;
     font-size: 25px;
     color: white;
-    padding-right: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
     margin-left: 95%;
+    border-radius: 7px;
 }
-.plus{
-    margin-top: -45%;
+
+@media screen and (max-width: 3500px){
+    #calendar{
+        margin-left: 1800px;
+        margin-top: -5%;
+    } 
+    .plus{
+        margin-top: -500px;
+        margin-left: -300px;
+    }
 }
+
+@media screen and (max-width: 2000px){
+    #calendar{
+        margin-left: 800px;
+        margin-top: 5%;
+    } 
+    .plus{
+        margin-top: -500px;
+        margin-left: -300px;
+    }
+}
+
+
+@media screen and (max-width: 1300px){
+    #calendar{
+        margin-left: 500px;
+    } 
+    .plus{
+        margin-top: -450px;
+    }
+}
+
+
+@media screen and (max-width: 1023px){
+    #calendar{
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    .plus{
+        margin-left: -25%;
+        margin-top: 45px;
+    }
+}
+
