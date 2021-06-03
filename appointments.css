@@ -120,3 +120,135 @@ button{
     margin-top: -8%;
     margin-left: 5%;
 }
+
+@media screen and (max-width: 2000px){
+    .form1{
+        margin-left: 45%;
+        margin-top: 15%;
+    } 
+}
+
+@media screen and (max-width: 1300px){
+    .form1{
+        margin-left: 45%;
+        margin-top: 15%;
+    } 
+}
+
+@media screen and (max-width: 1184px){
+    .test{
+        margin-top: 25%
+    }
+    button{
+        margin-top: -29%;
+        margin-left: -2%;
+    }
+    #fname{
+        margin-left: -65%;
+        margin-top: -35%;
+    } 
+    #lname{
+        margin-left: -65%;
+        margin-top: -32%;
+    }
+    #tel{
+        margin-left: -65%;
+        margin-top: -29%;
+    }
+    #email{
+        margin-left: -65%;
+        margin-top: -26%;
+    }
+    #date{
+        margin-left: -50%;
+        margin-top: -40%;
+    }
+    #time{
+        margin-left: -50%;
+        margin-top: -37%;
+    }
+    h2{
+        margin-left: 54%;
+        margin-top: -12%;
+    }
+    h3{
+        margin-top: -2%;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .test{
+        margin-top: 25%
+    }
+    button{
+        margin-top: -29%;
+        margin-left: -2%;
+    }
+    #fname{
+        margin-left: -65%;
+        margin-top: 15%;
+    } 
+    #lname{
+        margin-left: -65%;
+        margin-top: -22%;
+    }
+    #tel{
+        margin-left: -65%;
+        margin-top: -19%;
+    }
+    #email{
+        margin-left: -65%;
+        margin-top: -16%;
+    }
+    #date{
+        margin-left: -50%;
+        margin-top: -40%;
+    }
+    #time{
+        margin-left: -50%;
+        margin-top: -37%;
+    }
+    h2{
+        margin-left: 54%;
+        margin-top: -16%;
+    }
+    h3{
+        margin-top: -3%;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 930px){
+    #image{
+        margin-top: 15%
+    }
+}
+@media screen and (max-width: 875px){
+    h3{
+        margin-top: -7%;
+        margin-left: 9%;
+    }
+}
+@media screen and (max-width: 775px){
+    h3{
+        margin-top: -10%;
+        margin-left: 9%;
+    }
+    h2{
+        margin-top: -20%;
+        margin-left: 55%;
+    }
+}
+@media screen and (max-width: 655px){
+    h3{
+        margin-top: -15%;
+        margin-left: 9%;
+    }
+}
+@media screen and (max-width: 595px){
+    h3{
+        margin-top: -16%;
+        margin-left: 9%;
+    }
+}
